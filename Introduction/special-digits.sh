@@ -12,4 +12,4 @@ ls -l `which ls` # special digit `<command>` every command inside the quotes wil
 
 ls ????????.txt # special digit <????????> used to search for files of extension tx.t with the same character length.
 
-touch arq{1,2,3,4,5}.txt # special digit <{ }> used to create a list of numbered files
+touch arq{1,2,3,4,5}.txt # special digit <{}> used to create a list of numbered files
