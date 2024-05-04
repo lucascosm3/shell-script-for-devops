@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "The current values is: $3.00" # double quotes, interpret <$> as a variable
 
