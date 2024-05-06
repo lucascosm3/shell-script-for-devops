@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #examples
 
 #sudo apt update && echo "Success!" # if the command on the left works, the command on the right after <&&> will be executed
