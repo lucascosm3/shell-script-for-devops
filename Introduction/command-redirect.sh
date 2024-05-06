@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #examples
 
 sudo apt update > apt_update_error.txt # if the command works, its output will be redirected to the .txt file
