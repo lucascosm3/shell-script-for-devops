@@ -12,3 +12,19 @@ echo "NOME_2: $NOME_2"
 NOME=${1:?"Null variable"} # If you do not define a default value, but rather the user, if this is not met, null will be given
 
 echo $NOME
+
+# Array
+
+fruits=(
+  'Pineapple'
+  'Orange'
+  'Banana'
+)
+
+echo ${fruits[@]} # returning the items within the array
+echo ${#fruits[@]} # returning the number of items within the array
+echo ${!fruits[@]} # returning the position of items within the array
+
+for i in ${!fruits[@]}; do
+  echo ${fruits[$i]}
+done
