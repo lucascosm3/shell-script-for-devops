@@ -31,6 +31,7 @@ done
 
 # Variable Indirection
 
+#examples
 NAME="lucas"
 NAME_2="cosme"
 NAME_3="silva"
@@ -39,3 +40,8 @@ for variable_name in ${!NAME*}; do
   echo "Variable Name: ${!variable_name}" # returns the value of variables in list 
 done
 
+# Arithmetics
+
+# examples
+
+echo $((12/3))
